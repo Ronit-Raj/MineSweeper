@@ -1,0 +1,7 @@
+.cells{
+    -fx-background-color:powderblue;
+    -fx-border-color:black;
+}
+.clicked_cells{
+    -fx-background-color: whitesmoke
+}
