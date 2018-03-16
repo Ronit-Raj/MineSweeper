@@ -12,7 +12,7 @@ import javafx.stage.Stage;
  * @author ronit
  */
 public class Minesweeper extends Application {  
-    int noOfRows; //these are the default values 
+    int noOfRows;
     int noOfCols;
     int mines;
     int flagsUsed;
