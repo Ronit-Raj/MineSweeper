@@ -70,7 +70,8 @@ public class Minesweeper extends Application {
     private void initialize(Stage primaryStage){
         noOfRows=9; //these are the default values 
         noOfCols=9;
-        mines=10;      
+        mines=10;   
+        flagsUsed=0;
         settingValues();
         firstClick=true;
         cells=new Cell[noOfRows][noOfCols];
