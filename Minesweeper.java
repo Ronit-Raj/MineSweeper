@@ -42,7 +42,8 @@ public class Minesweeper extends Application {
                     noOfCols=9;
                     mines=10;
                 }
-                else if(letter.equalsIgnoreCase("16*16 40 Mines")){
+                
+                if(letter.equalsIgnoreCase("16*16 40 Mines")){
                     noOfRows=16;
                     noOfCols=16;
                     mines=40;
@@ -248,9 +249,6 @@ public class Minesweeper extends Application {
                      if(cells[cRow][cCol].checked==false){ //more than the range 
                         checkSurrounding(cRow,cCol);
                      }
-                     else{
-                         continue;   
-                    }
                   }                  
                }
            }
